@@ -1,0 +1,128 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Nunito', sans-serif;
+}
+.btn{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 25px;
+	background: #000;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	transition: .3s;
+	}
+.btn:hover{
+	background: orange;
+	color: #fff;
+
+}
+/*header css*/
+.home{
+	margin-bottom: 100px;
+}
+.navbar-brand img{
+	width: 100%;
+}
+.navbar-nav .nav-link{
+	font-size:18px;
+	font-weight: 600;
+	color: #000;
+}
+.carousel-item h1{
+	font-size: 40px;
+	font-weight: 600;
+	color: #000;
+}
+.carousel-item p{
+	font-size: 20px;
+	font-weight: 400;
+	padding-right: 15px;
+}
+/* smartphone area */
+.smartphone{
+	margin-bottom: 100px;
+}
+.head-area{
+	margin-bottom: 50px;
+}
+.head-area h3 {
+    display: inline-block;
+}
+
+.head-area a {
+    float: right;
+    font-size:16px;
+	color: orange;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.card-deck .card{
+	border-radius: 15px;
+	box-shadow: 5px 5px 10px lightgray;
+	padding: 10px 20px;
+	text-align: center;
+}
+.card-title{
+	font-size: 20px;
+	font-weight: 700;
+	color: #000;
+}
+/* laptop area */
+.laptop{
+	margin-bottom: 150px;
+}
+/* categories */
+.categories{
+	padding-top: 50px;
+}
+.heading{
+	text-align: center;
+} 
+.categories  h3{
+	font-size: 30px;
+	font-weight: 600;
+	color: #000;
+	
+}
+.categories .border-bottom{
+	border: 5px solid orange;
+    width: 110px;
+    margin: 0 auto;
+    border-radius: 10px;
+	margin-bottom: 50px;
+}
+.categories .bag{
+	padding: 10px 50px;
+	height: 150px;
+	width: 200px;;
+	box-shadow: 5px 5px 10px lightgray;
+	margin: 60px;
+	
+}
+.categories .perfume img,.bag img,.shoe img{
+	width: 90px;
+}
+.categories .perfume h3,.bag h3,.shoe h3{
+	text-align: center;
+}
+.categories .perfume{
+	padding: 10px 50px;
+	height: 150px;
+	width: 200px;;
+	box-shadow: 5px 5px 10px lightgray;
+	margin-bottom: 20px;
+}
+.categories .shoe{
+	padding: 10px 50px;
+	height: 150px;
+	width: 200px;;
+	box-shadow: 5px 5px 10px lightgray;
+}
